@@ -4,17 +4,16 @@
   <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
     &#9776;
   </button>
-  
   <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-      <a class="navbar-brand" href="/">Nathan Justin</a>
-    <ul class="nav navbar-nav pull-xs-right">
+    <a class="navbar-brand" href="/">Nathan Justin</a>
+  <ul class="nav navbar-nav pull-xs-right">
       <li class="nav-item">
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="/static_pages/about">About Me</a>
       </li>
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="/articles">Blog</a>
       </li>
       <li class="nav-item">
@@ -25,23 +24,8 @@
 </nav>
 </header>
 <!-- /End of Header/Navigation -->
-<h1>Posts</h1>
 
-<%= link_to 'Create new post', new_article_path %>
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Text</th>
-  </tr>
- 
-  <% @articles.each do |article| %>
-    <tr>
-      <td><%= article.title %></td>
-      <td><%= article.text %></td>
-      <td><%= link_to 'View', article_path(article) %></td>
-      <td><%= link_to 'Edit', edit_article_path(article) %></td>
-      <td><%= link_to 'Delete', article_path(article), method: :delete, 
-        data: { confirm: 'Are you sure you want to delete this post?' } %></td>
-    </tr>
-  <% end %>
-</table>
+<h1>About Me</h1>
+<p></p>
+<p>    I am a student at Harvey Mudd College (Class of 2019) </p>
+<p>    My hobbies include running, ballroom dance, and teaching! </p>
