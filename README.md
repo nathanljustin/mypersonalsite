@@ -44,9 +44,14 @@ A major flaw that still needs to be implemented is user authentication to bar us
 ## References
 ### Files
 Bootstrap Template: BS Starter by http://www.nextbootstrap.com/
+
 Google Drive: https://drive.google.com/drive/folders/0Bzto82E4VjEORDBEMkNpNlB5X3c (for storing homepage photos)
+
 ### Tutorials
 Blog: http://guides.rubyonrails.org/getting_started.html
+
 Bootstrap integration: https://viblo.asia/p/how-to-integrate-custom-bootstrap-theme-in-rails-l0rvmxrAGyqA
+
 Pictures page: https://www.youtube.com/watch?v=MpFO4Zr0EPE
+
 About page: https://www.railstutorial.org/book/static_pages
