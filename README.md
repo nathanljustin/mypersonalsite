@@ -17,13 +17,13 @@ The MVP currently contains the basics of what is needed for the site:
 The user can see all of the posts and pictures, and can read the about me.
 On the site, anyone can currently add posts and pictures (user authentication will soon be implemented to only allow Nathan Justin to add posts).
 ### Overview of all pages
-![Animated gif](mypersonalsite/gifs/Blog.gif "Tour of website")
+![Alt text](https://github.com/nathanljustin/mypersonalsite/blob/master/gifs/Overview.gif "Tour of website")
 
 ### Add blog post
-![Animated gif](mypersonalsite/gifs/Blog.gif "Adding a blog post")
+![Alt text](https://github.com/nathanljustin/mypersonalsite/blob/master/gifs/Blog.gif "Adding a blog post")
 
 ### Add picture
-![Animated gif](mypersonalsite/gifs/Pictures.gif "Adding a picture")
+![Alt text](https://github.com/nathanljustin/mypersonalsite/blob/master/gifs/Pictures.gif "Adding a picture")
 
 ## Architecture
 The architecture of this project can be broken up into four parts: Homepage, About Page, Blog, and Photo Gallery.
