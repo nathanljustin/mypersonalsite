@@ -25,8 +25,29 @@
 </header>
 <!-- /End of Header/Navigation -->
 
-<h1>About Me</h1>
-<p></p>
-<p>    I am a student at Harvey Mudd College (Class of 2019) </p>
-<p>    My hobbies include running, ballroom dance, and teaching! </p>
-<%= link_to "Resume", "/resume.pdf", :target => "_blank", :class => "button" %>
+<style>
+p {
+    margin: 0px 50px 20px 50px;
+}
+</style>
+
+<body>
+  <h1>
+    <center>About Me</center>
+  </h1>
+  <p></p>
+  <p {margin-left: 30px}>
+    If you want to know about my professional background, feel free to check out my <%= link_to "resume", "/resume.pdf", :target => "_blank", :class => "button" %>.
+    <br>
+    Otherwise, read on!
+  </p>
+  <p>
+    I am a student at Harvey Mudd College (Class of 2019) and pursuing a B.S. in Computer Science and Mathematics.
+  </p>
+  <p>
+    I am involved with several student organizations
+  </p>
+  <p>
+    My hobbies include running, ballroom dance, and teaching!
+  </p>
+</body>
